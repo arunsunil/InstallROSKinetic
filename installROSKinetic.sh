@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#These shell script is written based on the instructions given in the ROS website.
+#This shell script is written based on the instructions given in the ROS website.
 #Visit http://wiki.ros.org/kinetic/Installation/Ubuntu to read more
 
 # Configure your Ubuntu repositories
