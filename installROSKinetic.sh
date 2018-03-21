@@ -1,6 +1,7 @@
 #!/bin/bash
 
-#These shell script is written based on the instructions given in the ROS website. Visit http://wiki.ros.org/kinetic/Installation/Ubuntu to read more
+#These shell script is written based on the instructions given in the ROS website.
+#Visit http://wiki.ros.org/kinetic/Installation/Ubuntu to read more
 
 # Configure your Ubuntu repositories
 sudo add-apt-repository universe
@@ -17,7 +18,8 @@ sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C
 # Installation
 sudo apt-get update
 
-# Desktop-Full Install: (Recommended) : ROS, rqt, rviz, robot-generic libraries, 2D/3D simulators, navigation and 2D/3D perception
+# Desktop-Full Install: (Recommended) : ROS, rqt, rviz, robot-generic libraries, 
+#2D/3D simulators, navigation and 2D/3D perception
 yes | sudo apt-get install ros-kinetic-desktop-full
 
 # Desktop Install: ROS, rqt, rviz, and robot-generic libraries
@@ -26,7 +28,8 @@ yes | sudo apt-get install ros-kinetic-desktop-full
 # ROS-Base: (Bare Bones) ROS package, build, and communication libraries. No GUI tools.
 # yes | sudo apt-get install ros-kinetic-ros-base
 
-# Individual Package: You can also install a specific ROS package (replace underscores with dashes of the package name):
+# Individual Package: You can also install a specific ROS package 
+#(replace underscores with dashes of the package name):
 # sudo apt-get install ros-kinetic-PACKAGE
 # Example: sudo apt-get install ros-kinetic-slam-gmapping
 # To find available packages, use:
@@ -37,7 +40,8 @@ sudo rosdep init
 rosdep update
 
 # Environment setup
-# It's convenient if the ROS environment variables are automatically added to your bash session every time a new shell is launched:
+# It's convenient if the ROS environment variables are automatically added to your 
+#bash session every time a new shell is launched:
 
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
