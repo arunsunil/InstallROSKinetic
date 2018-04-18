@@ -29,7 +29,7 @@ yes | sudo apt-get install ros-kinetic-desktop-full
 # yes | sudo apt-get install ros-kinetic-ros-base
 
 # Individual Package: You can also install a specific ROS package 
-#(replace underscores with dashes of the package name):
+# (replace underscores with dashes of the package name):
 # sudo apt-get install ros-kinetic-PACKAGE
 # Example: sudo apt-get install ros-kinetic-slam-gmapping
 # To find available packages, use:
