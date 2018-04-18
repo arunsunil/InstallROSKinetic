@@ -19,7 +19,7 @@ sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C
 sudo apt-get update
 
 # Desktop-Full Install: (Recommended) : ROS, rqt, rviz, robot-generic libraries, 
-#2D/3D simulators, navigation and 2D/3D perception
+# 2D/3D simulators, navigation and 2D/3D perception
 yes | sudo apt-get install ros-kinetic-desktop-full
 
 # Desktop Install: ROS, rqt, rviz, and robot-generic libraries
