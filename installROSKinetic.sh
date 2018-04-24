@@ -51,3 +51,6 @@ source ~/.bashrc
 
 # Dependencies for building packages
 yes | sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+
+#In case permission to ~/.ros are not set up
+sudo rosdep fix-permissions
